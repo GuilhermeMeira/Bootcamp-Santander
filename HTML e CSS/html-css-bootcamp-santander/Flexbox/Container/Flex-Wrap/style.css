@@ -1,0 +1,48 @@
+body{
+    background-color: #121214;
+}
+
+.flex-container{
+    display: flex;
+    height: 100px;
+    max-width: 300px;
+    border: solid 2px rgb(255, 0, 119);
+}
+
+.item{
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    text-align: center; 
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+h1{
+color: #e1e1e6;
+
+}
+
+.blue{
+    background-color: lightskyblue;
+}
+
+.red{
+    background-color: lightcoral;
+}
+
+.green{
+    background-color: rgb(133, 217, 133)
+}

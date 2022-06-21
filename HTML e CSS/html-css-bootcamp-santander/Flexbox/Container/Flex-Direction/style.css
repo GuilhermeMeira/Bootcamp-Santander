@@ -1,0 +1,39 @@
+body{
+    background-color: #121214;
+    max-width: fit-content;
+    margin: auto;
+}
+.flex-container{
+    max-width:fit-content;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #e1e1e6;
+    display: flex;
+}
+
+.flex-item{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: pink;
+    margin: 5px;
+    border: 2px solid #e1e1e6;
+    font-size: 50px;
+}
+
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+
+}
+.column{
+    flex-direction: column;
+    float: left;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+    float: right;
+}

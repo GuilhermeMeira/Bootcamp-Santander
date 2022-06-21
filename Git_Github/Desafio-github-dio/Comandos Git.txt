@@ -1,0 +1,12 @@
+Comandos principais do Git:
+
+git init : Cria um projeto de Git
+
+git clone : Cria uma cópia de um repositório existente
+
+git add : Adiciona os arquivos modificas à uma fila para serem commitados
+
+git commit : Valida as alterações para serem enviadas pro repositório principal / github
+	   : git commit -m “seu comentário”
+
+git push : Envia a nova versão para o repositório remoto / github

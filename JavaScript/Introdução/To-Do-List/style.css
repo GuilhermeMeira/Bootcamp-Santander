@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #121214;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: bisque;
+}
+
+
+#menu{
+    display: flex;
+    flex-direction: column;
+}
+
+#enviar{
+    flex-direction: row;
+}
+
+.botao{
+    color: rgb(75, 165, 243);
+    border-radius: 10px;
+    background-color:#121143;
+    font-weight: 900;
+
+}
+
+.botao:hover{
+    cursor: pointer;
+    color: #121143;
+    background-color: rgb(75, 165, 243);
+}
+
+#campo-texto{
+    background-color: #121143;
+    border: 2px solid rgb(75, 165, 243);
+    border-radius: 7px;
+    color: white;
+}
+
+#lista-itens{
+    display: flex;
+    flex-direction: column;
+}
+
+
+:checked + span{
+    text-decoration: line-through;
+}
+
+.Tarefas{
+
+    text-align: center;
+    display: flex;
+    margin: 5px 0;
+
+}

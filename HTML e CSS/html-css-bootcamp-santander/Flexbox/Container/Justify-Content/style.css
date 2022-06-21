@@ -1,0 +1,40 @@
+body{
+    background-color: #121214;
+}
+
+.container{
+    max-width: 400px;
+    border: 2px solid #8000ff;
+    margin: 0;
+    display: flex;
+}
+
+.item{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    text-align: center;
+    color: #000000;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.space-beetween{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+h1{
+    color: #e1e1e6;
+}
