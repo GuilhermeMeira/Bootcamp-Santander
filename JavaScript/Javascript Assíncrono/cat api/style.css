@@ -1,0 +1,19 @@
+#cat{
+    width: 250px;
+    height: 250px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121214;
+    color: peachpuff;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
