@@ -52,6 +52,7 @@ button {
 
 button:hover {
 	background-color: #000401;
+    cursor: pointer;
 }
 
 button.dark-mode {
