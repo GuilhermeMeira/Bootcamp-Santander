@@ -5,7 +5,7 @@ body {
 	color: #4e545c;
 	margin: 0;
 	font-family: 'Quicksand';
-    transition: all 0.5s linear;
+    transition: all 1s ease-out;
 }
 
 body.dark-mode {
